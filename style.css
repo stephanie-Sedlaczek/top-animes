@@ -1,0 +1,97 @@
+/* Estilo Principal */
+
+/* Resetando margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.wikia.nocookie.net/dublagem/images/7/7b/Kakegurui.png/revision/latest/scale-to-width-down/1200?cb=20220627063940&path-prefix=pt-br');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:hover {
+    display: inline;
+    margin-right: 10px;
+    background-color:black;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo da seção principal */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anime-image {
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header {
+    background-color: #900;
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
